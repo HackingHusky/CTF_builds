@@ -103,11 +103,17 @@ ganon : TriforceGod!
 
 ## Skills Practiced
 Network enumeration
+
 Credential harvesting
+
 Linux privilege escalation
+
 Windows privilege escalation
+
 Lateral movement
+
 Active Directory attacks
+
 Pass-the-Hash
 
 ## Disclaimer
