@@ -87,12 +87,16 @@ Kali Linux as attacker machine
 Ensure required ports are open:
 21, 22, 139, 445, 3389, 5985, 88
 🔐 Credentials (For Lab Setup Only)
+
 Linux:
 link : hyrule123
 
 Windows / AD:
+
 midna : Twilight#Realm1
+
 zelda : Princess123!
+
 ganon : TriforceGod!
 ​
 
