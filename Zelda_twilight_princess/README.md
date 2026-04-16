@@ -16,6 +16,8 @@ Compromise an Active Directory domain
 
 
 ## Lab Architecture
+
+
 Kali (Attacker)
    |
    |--- [Faron Woods - Linux]        
