@@ -19,6 +19,7 @@ Compromise an Active Directory domain
 
 
 Kali (Attacker)
+   
    |
    |--- [Faron Woods - Linux]        
    |
