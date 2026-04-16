@@ -1,4 +1,6 @@
 # Twilight Corruption of Hyrule — CTF Lab
+
+<img width="1024" height="1024" alt="Husky hacker Twilight Princess CTF" src="https://github.com/user-attachments/assets/96544f60-b4b2-462e-961f-4f3157648ec3" />
 A multi-machine penetration testing lab inspired by The Legend of Zelda: Twilight Princess, designed to simulate real-world OSCP / PNPT attack paths.
 Story
 Hyrule has fallen into darkness.
