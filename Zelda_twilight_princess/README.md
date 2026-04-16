@@ -75,8 +75,11 @@ Configure all machines on the same internal network
 
 ### 2. Networking
 Assign static IPs:
+
 Linux: 10.10.10.10
+
 Windows: 10.10.10.20
+
 DC: 10.10.10.30
 
 ### 3. Access
