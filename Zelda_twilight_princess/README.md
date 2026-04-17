@@ -1,7 +1,8 @@
 # Twilight Princess CTF (Ubuntu Lab)
 
 <img width="1024" height="1024" alt="Husky hacker Twilight Princess CTF" src="https://github.com/user-attachments/assets/96544f60-b4b2-462e-961f-4f3157648ec3" />
-"Light and shadow are two sides of the same coin..." — Midna
+_"Light and shadow are two sides of the same coin..." — Midna_
+
 
 A Zelda-themed Capture The Flag (CTF) challenge I made myself. It's a fun, easy box for starters, and when I got into cybersecurity, I combined my favorite video game with CTF.
 
