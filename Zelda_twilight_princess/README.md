@@ -11,19 +11,6 @@ A Zelda-themed Capture The Flag (CTF) challenge I made myself. It's a fun, easy 
 You awaken in the Twilight Realm, stripped of power and memory.
 To escape, you must uncover secrets, exploit weaknesses, and reclaim control.
 
-
-
-
-​
-## Attack Path
-1. Nmap scan → enumerate services
-2. FTP/SMB → discover credentials
-3. SSH → access Linux system
-4. Enumerate → find Midna credentials
-5. RDP → access Windows machine
-6. Dump hashes → obtain NTLM hashes
-7. Pass-the-Hash → authenticate to Domain Controller
-8. Gain Domain Admin → capture final flag
 ​
 
 ## Setup Instructions
