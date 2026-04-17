@@ -1,60 +1,17 @@
-# Twilight Corruption of Hyrule — CTF Lab
+# Twilight Princess CTF (Ubuntu Lab)
 
 <img width="1024" height="1024" alt="Husky hacker Twilight Princess CTF" src="https://github.com/user-attachments/assets/96544f60-b4b2-462e-961f-4f3157648ec3" />
-A multi-machine penetration testing lab inspired by The Legend of Zelda: Twilight Princess, designed to simulate real-world OSCP / PNPT attack paths.
-Story
-Hyrule has fallen into darkness.
-You take the role of Link, guided by Midna, to uncover the corruption spreading across the kingdom.
-From the cursed forests to the shadowed castle, and finally into the Twilight Realm, you must reclaim the Triforce by exploiting systems, pivoting networks, and defeating the forces of Zant and Ganondorf.
+"Light and shadow are two sides of the same coin..." — Midna
+
+A Zelda-themed Capture The Flag (CTF) challenge I made myself. It's a fun, easy box for starters, and when I got into cybersecurity, I combined my favorite video game with CTF.
 
  
 ## Objectives
-Perform network-based reconnaissance
-Exploit Linux services for initial access
-Pivot using credential discovery
-Gain access to a Windows system via RDP
-Dump credentials and perform Pass-the-Hash attacks
-Compromise an Active Directory domain
+You awaken in the Twilight Realm, stripped of power and memory.
+To escape, you must uncover secrets, exploit weaknesses, and reclaim control.
 
 
-## Lab Architecture
 
-
-Kali (Attacker)
-   
-   |
-   |--- [Faron Woods - Linux]        
-   |
-   |--- [Hyrule Castle - Windows]    
-   |
-   |--- [Twilight Realm - AD/DC]     
-​
-
-## Machines Overview:
-
-
-Faron Woods (Linux)
-Focus: Network Enumeration & Initial Access
-FTP (Anonymous access)
-SMB (Credential leak)
-SSH (User login)
-Custom service (port 9001)
-Privilege escalation via sudo misconfiguration
-
-​
-Hyrule Castle (Windows)
-Focus: Lateral Movement & Credential Discovery
-RDP access via discovered credentials
-Stored credentials (pivot to AD)
-Weak service permissions (optional privesc)
-
-​
-Twilight Realm (Active Directory)
-Focus: Domain Compromise
-Credential dumping (Mimikatz / secretsdump)
-Pass-the-Hash authentication
-Lateral movement to Domain Controller
-Domain Admin takeover
 
 ​
 ## Attack Path
@@ -76,47 +33,14 @@ Use VMware
 Configure all machines on the same internal network
 
 ### 2. Networking
-Assign static IPs:
-
-Linux: 10.10.10.10
-
-Windows: 10.10.10.20
-
-DC: 10.10.10.30
+You can keep the default IP address once configured. 
 
 ### 3. Access
-Kali Linux as attacker machine
+Kali Linux as an attacker machine
 Ensure required ports are open:
-21, 22, 139, 445, 3389, 5985, 88
-🔐 Credentials (For Lab Setup Only)
+22 and 80
 
-Linux:
-link : hyrule123
-
-Windows / AD:
-
-midna : Twilight#Realm1
-
-zelda : Princess123!
-
-ganon : TriforceGod!
 ​
-
-
-## Skills Practiced
-Network enumeration
-
-Credential harvesting
-
-Linux privilege escalation
-
-Windows privilege escalation
-
-Lateral movement
-
-Active Directory attacks
-
-Pass-the-Hash
 
 ## Disclaimer
 This lab is intended for educational purposes only.
